@@ -13,3 +13,7 @@ A rate limiter is used to control the rate of traffic sent by a client or a serv
 ### 1. Token Bucket Algorithm
 
 A token bucket is a container that can hold a predefined set of tokens. Each time a request is sent, a token is processed. If the bucket is empty then no requests can be processed until the token is refreshed in the bucket. New tokens are added periodically. For the sake of simplicity, in the program every 1 second a new token is added to the token bucket.
+
+# Reference
+
+1. System Design Interview by Alex Xu
